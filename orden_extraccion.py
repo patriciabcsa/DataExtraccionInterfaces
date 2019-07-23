@@ -368,6 +368,7 @@ RT8_5 = RT8_5.astype(np.float64)
 
 RF7_5 = genfromtxt("Extraccion/Sujeto_5/Relajado/F7.csv", delimiter=",")
 RF7_5 = RF7_5.astype(np.float64)
+
 ###############################################################################
 #
 # SUJETO 5 Estres
@@ -407,6 +408,82 @@ ET8_5 = ET8_5.astype(np.float64)
 EF7_5 = genfromtxt("Extraccion/Sujeto_5/Estres/F7.csv", delimiter=",")
 EF7_5 = EF7_5.astype(np.float64)
 
+###############################################################################
+#
+# SUJETO 6 Relajado
+#
+###############################################################################
+
+
+
+RAF3_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/AF3.csv", delimiter=",")
+RAF3_6 = RAF3_5.astype(np.float64)
+
+RAF4_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/AF4.csv", delimiter=",")
+RAF4_6 = RAF4_5.astype(np.float64)
+
+
+RF3_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/F3.csv", delimiter=",")
+RF3_6 = RF3_5.astype(np.float64)
+
+
+RF8_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/F8.csv", delimiter=",")
+RF8_6 = RF8_5.astype(np.float64)
+
+RFC_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/FC5.csv", delimiter=",")
+RFC_6 = RFC_5.astype(np.float64)
+
+RO2_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/O2.csv", delimiter=",")
+RO2_6 = RO2_5.astype(np.float64)
+
+RP8_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/P8.csv", delimiter=",")
+RP8_6 = RP8_5.astype(np.float64)
+
+
+RT8_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/T8.csv", delimiter=",")
+RT8_6 = RT8_5.astype(np.float64)
+
+
+RF7_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/F7.csv", delimiter=",")
+RF7_6 = RF7_5.astype(np.float64)
+###############################################################################
+#
+# SUJETO 6 Estres
+#
+###############################################################################
+
+
+
+EAF3_6 = genfromtxt("Extraccion/Sujeto_5/Estres/AF3.csv", delimiter=",")
+EAF3_6 = EAF3_5.astype(np.float64)
+
+EAF4_6 = genfromtxt("Extraccion/Sujeto_5/Estres/AF4.csv", delimiter=",")
+EAF4_6 = EAF4_5.astype(np.float64)
+
+
+EF3_6 = genfromtxt("Extraccion/Sujeto_5/Estres/F3.csv", delimiter=",")
+EF3_6 = EF3_5.astype(np.float64)
+
+
+EF8_6 = genfromtxt("Extraccion/Sujeto_5/Estres/F8.csv", delimiter=",")
+EF8_6 = EF8_5.astype(np.float64)
+
+EFC_6 = genfromtxt("Extraccion/Sujeto_5/Estres/FC5.csv", delimiter=",")
+EFC_6 = EFC_5.astype(np.float64)
+
+EO2_6 = genfromtxt("Extraccion/Sujeto_5/Estres/O2.csv", delimiter=",")
+EO2_6 = EO2_5.astype(np.float64)
+
+EP8_6 = genfromtxt("Extraccion/Sujeto_5/Estres/P8.csv", delimiter=",")
+EP8_6 = EP8_5.astype(np.float64)
+
+
+ET8_6 = genfromtxt("Extraccion/Sujeto_5/Estres/T8.csv", delimiter=",")
+ET8_6 = ET8_5.astype(np.float64)
+
+
+EF7_6 = genfromtxt("Extraccion/Sujeto_5/Estres/F7.csv", delimiter=",")
+EF7_6 = EF7_5.astype(np.float64)
 ###############################################################################
 #
 # PLOT RELAJADO ESCENARIO 1 ALPHA
@@ -594,5 +671,3 @@ np.savetxt("febrero/DELTA/Estresado.csv",np.c_[ASujE_1,ASujE_2,ASujE_3,ASujE_4,A
 
 
 
-print()
-print()
