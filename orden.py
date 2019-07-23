@@ -861,47 +861,34 @@ SujR_7=numpy.array([R_AF3_7,R_AF4_7,R_F3_7,R_F8_7,R_FC5_7,R_O2_7,R_P8_7,R_T8_7])
 SujR_8=numpy.array([R_AF3_8,R_AF4_8,R_F3_8,R_F8_8,R_FC5_8,R_O2_8,R_P8_8,R_T8_8])
 ###############################################################################
 
-#estadistica
-ASujE_1=np.mean(SujE_1,axis=0)
-ASujE_2=np.mean(SujE_2,axis=0)
-ASujE_3=np.mean(SujE_3,axis=0)
-ASujE_4=np.mean(SujE_4,axis=0)
-ASujE_5=np.mean(SujE_5,axis=0)
-
-ASujR_1=np.mean(SujR_1,axis=0)
-ASujR_2=np.mean(SujR_2,axis=0)
-ASujR_3=np.mean(SujR_3,axis=0)
-ASujR_4=np.mean(SujR_4,axis=0)
-ASujR_5=np.mean(SujR_5,axis=0)
-
-
 
 def normaliza(array):
     return (array - array.mean()) / array.std()
 
-normalized_r1 = normaliza(ASujE_1)
-normalized_r2 = normaliza(ASujE_2)
-normalized_r3 = normaliza(ASujE_3)
-normalized_r4 = normaliza(ASujE_4)
-normalized_r5 = normaliza(ASujE_5)
+normalized_r1 = normaliza(SujE_1)
+normalized_r2 = normaliza(SujE_2)
+normalized_r3 = normaliza(SujE_3)
+normalized_r4 = normaliza(SujE_4)
+normalized_r5 = normaliza(SujE_5)
+normalized_r6 = normaliza(SujE_6)
+normalized_r7 = normaliza(SujE_7)
+normalized_r8 = normaliza(SujE_8)
 
-normalized_E1 = normaliza(ASujR_1)
-normalized_E2 = normaliza(ASujR_2)
-normalized_E3 = normaliza(ASujR_3)
-normalized_E4 = normaliza(ASujR_4)
-normalized_E5 = normaliza(ASujR_5)
+normalized_E1 = normaliza(SujR_1)
+normalized_E2 = normaliza(SujR_2)
+normalized_E3 = normaliza(SujR_3)
+normalized_E4 = normaliza(SujR_4)
+normalized_E5 = normaliza(SujR_5)
+normalized_E6 = normaliza(SujR_6)
+normalized_E7 = normaliza(SujR_7)
+normalized_E8 = normaliza(SujR_8)
 
 
 
 np.savetxt("febrero/DELTA/Relajado.csv",
-           np.c_[ASujR_1,ASujR_2,ASujR_3,ASujR_4,ASujR_5],header="SUJETO_1,SUJETO_2,SUJETO_3,SUJETO_4,SUJETO_5",delimiter=",")
+           np.c_[SujR_1,SujR_2,SujR_3,SujR_4,SujR_5,SujR_6,SujR_7,SujR_8],header="SUJETO_1,SUJETO_2,SUJETO_3,SUJETO_4,SUJETO_5,SUJETO_6,SUJETO_7,SUJETO_8",delimiter=",")
 
-np.savetxt("febrero/DELTA/Estresado.csv",np.c_[ASujE_1,ASujE_2,ASujE_3,ASujE_4,ASujE_5],header="SUJETO_1,SUJETO_2,SUJETO_3,SUJETO_4,SUJETO_5",delimiter=",")
+np.savetxt("febrero/DELTA/Estresado.csv",np.c_[SujE_1,SujE_2,SujE_3,SujE_4,SujE_5,SujE_6,SujE_7,SujE_8],header="SUJETO_1,SUJETO_2,SUJETO_3,SUJETO_4,SUJETO_5,SUJETO_6,SUJETO_7,SUJETO_8",delimiter=",")
 
 
-=======
-print()
->>>>>>> ea36e8de0d7cf6f34feb8ee419a2ee18b918f735
 
-print()
-print()
