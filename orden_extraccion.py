@@ -594,4 +594,5 @@ np.savetxt("febrero/DELTA/Estresado.csv",np.c_[ASujE_1,ASujE_2,ASujE_3,ASujE_4,A
 
 
 
-
+print()
+print()
