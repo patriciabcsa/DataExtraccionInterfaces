@@ -20,6 +20,7 @@ RAF3_1 = RAF3_1.astype(np.float64)
 
 RAF4_1 = genfromtxt("Extraccion/Sujeto_1/Relajado/AF4.csv", delimiter=",")
 RAF4_1 = RAF4_1.astype(np.float64)
+print(RAF4_1)
 
 
 RF3_1 = genfromtxt("Extraccion/Sujeto_1/Relajado/F3.csv", delimiter=",")
@@ -405,236 +406,7 @@ ET8_5 = ET8_5.astype(np.float64)
 
 EF7_5 = genfromtxt("Extraccion/Sujeto_5/Estres/F7.csv", delimiter=",")
 EF7_5 = EF7_5.astype(np.float64)
-###############################################################################
-#
-# SUJETO 6 Relajado
-#
-###############################################################################
-
-
-
-RAF3_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/AF3.csv", delimiter=",")
-RAF3_6 = RAF3_6.astype(np.float64)
-
-RAF4_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/AF4.csv", delimiter=",")
-RAF4_6 = RAF4_6.astype(np.float64)
-
-
-RF3_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/F3.csv", delimiter=",")
-RF3_6 = RF3_6.astype(np.float64)
-
-
-RF8_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/F8.csv", delimiter=",")
-RF8_6 = RF8_6.astype(np.float64)
-
-RFC_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/FC5.csv", delimiter=",")
-RFC_6 = RFC_6.astype(np.float64)
-
-RO2_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/O2.csv", delimiter=",")
-RO2_6 = RO2_6.astype(np.float64)
-
-RP8_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/P8.csv", delimiter=",")
-RP8_6 = RP8_6.astype(np.float64)
-
-
-RT8_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/T8.csv", delimiter=",")
-RT8_6 = RT8_6.astype(np.float64)
-
-
-RF7_6 = genfromtxt("Extraccion/Sujeto_5/Relajado/F7.csv", delimiter=",")
-RF7_6 = RF7_6.astype(np.float64)
-###############################################################################
-#
-# SUJETO 6 Estres
-#
-###############################################################################
-
-EAF3_6 = genfromtxt("Extraccion/Sujeto_5/Estres/AF3.csv", delimiter=",")
-EAF3_6 = EAF3_6.astype(np.float64)
-
-EAF4_6 = genfromtxt("Extraccion/Sujeto_5/Estres/AF4.csv", delimiter=",")
-EAF4_6 = EAF4_6.astype(np.float64)
-
-
-EF3_6 = genfromtxt("Extraccion/Sujeto_5/Estres/F3.csv", delimiter=",")
-EF3_6 = EF3_6.astype(np.float64)
-
-
-EF8_6 = genfromtxt("Extraccion/Sujeto_5/Estres/F8.csv", delimiter=",")
-EF8_6 = EF8_6.astype(np.float64)
-
-EFC_6 = genfromtxt("Extraccion/Sujeto_5/Estres/FC5.csv", delimiter=",")
-EFC_6 = EFC_6.astype(np.float64)
-
-EO2_6 = genfromtxt("Extraccion/Sujeto_5/Estres/O2.csv", delimiter=",")
-EO2_6 = EO2_6.astype(np.float64)
-
-EP8_6 = genfromtxt("Extraccion/Sujeto_5/Estres/P8.csv", delimiter=",")
-EP8_6 = EP8_6.astype(np.float64)
-
-
-ET8_6 = genfromtxt("Extraccion/Sujeto_5/Estres/T8.csv", delimiter=",")
-ET8_6 = ET8_6.astype(np.float64)
-
-
-EF7_6 = genfromtxt("Extraccion/Sujeto_5/Estres/F7.csv", delimiter=",")
-EF7_6 = EF7_6.astype(np.float64)
-
-
-##############################################################################
-#
-# SUJETO 7 Relajado
-#
-###############################################################################
-
-
-
-RAF3_7 = genfromtxt("Extraccion/Sujeto_5/Relajado/AF3.csv", delimiter=",")
-RAF3_7 = RAF3_7.astype(np.float64)
-
-RAF4_7 = genfromtxt("Extraccion/Sujeto_5/Relajado/AF4.csv", delimiter=",")
-RAF4_7 = RAF4_7.astype(np.float64)
-
-
-RF3_7 = genfromtxt("Extraccion/Sujeto_5/Relajado/F3.csv", delimiter=",")
-RF3_7 = RF3_7.astype(np.float64)
-
-
-RF8_7 = genfromtxt("Extraccion/Sujeto_5/Relajado/F8.csv", delimiter=",")
-RF8_7 = RF8_7.astype(np.float64)
-
-RFC_7 = genfromtxt("Extraccion/Sujeto_5/Relajado/FC5.csv", delimiter=",")
-RFC_7 = RFC_7.astype(np.float64)
-
-RO2_7 = genfromtxt("Extraccion/Sujeto_5/Relajado/O2.csv", delimiter=",")
-RO2_7 = RO2_7.astype(np.float64)
-
-RP8_7 = genfromtxt("Extraccion/Sujeto_5/Relajado/P8.csv", delimiter=",")
-RP8_7 = RP8_7.astype(np.float64)
-
-
-RT8_7 = genfromtxt("Extraccion/Sujeto_5/Relajado/T8.csv", delimiter=",")
-RT8_7 = RT8_7.astype(np.float64)
-
-
-RF7_7 = genfromtxt("Extraccion/Sujeto_5/Relajado/F7.csv", delimiter=",")
-RF7_7 = RF7_7.astype(np.float64)
-###############################################################################
-#
-# SUJETO 7 Estres
-#
-###############################################################################
-
-
-
-EAF3_7 = genfromtxt("Extraccion/Sujeto_5/Estres/AF3.csv", delimiter=",")
-EAF3_7 = EAF3_7.astype(np.float64)
-
-EAF4_7 = genfromtxt("Extraccion/Sujeto_5/Estres/AF4.csv", delimiter=",")
-EAF4_7 = EAF4_7.astype(np.float64)
-
-
-EF3_7 = genfromtxt("Extraccion/Sujeto_5/Estres/F3.csv", delimiter=",")
-EF3_7 = EF3_7.astype(np.float64)
-
-
-EF8_7 = genfromtxt("Extraccion/Sujeto_5/Estres/F8.csv", delimiter=",")
-EF8_7 = EF8_7.astype(np.float64)
-
-EFC_7 = genfromtxt("Extraccion/Sujeto_5/Estres/FC5.csv", delimiter=",")
-EFC_7 = EFC_7.astype(np.float64)
-
-EO2_7 = genfromtxt("Extraccion/Sujeto_5/Estres/O2.csv", delimiter=",")
-EO2_7 = EO2_7.astype(np.float64)
-
-EP8_7 = genfromtxt("Extraccion/Sujeto_5/Estres/P8.csv", delimiter=",")
-EP8_7 = EP8_7.astype(np.float64)
-
-
-ET8_7 = genfromtxt("Extraccion/Sujeto_5/Estres/T8.csv", delimiter=",")
-ET8_7 = ET8_7.astype(np.float64)
-
-
-EF7_7 = genfromtxt("Extraccion/Sujeto_5/Estres/F7.csv", delimiter=",")
-EF7_7 = EF7_7.astype(np.float64)
-
-
-##############################################################################
-#
-# SUJETO 8 Relajado
-#
-###############################################################################
-
-
-
-RAF3_8 = genfromtxt("Extraccion/Sujeto_5/Relajado/AF3.csv", delimiter=",")
-RAF3_8 = RAF3_8.astype(np.float64)
-
-RAF4_8 = genfromtxt("Extraccion/Sujeto_5/Relajado/AF4.csv", delimiter=",")
-RAF4_8 = RAF4_8.astype(np.float64)
-
-
-RF3_8 = genfromtxt("Extraccion/Sujeto_5/Relajado/F3.csv", delimiter=",")
-RF3_8 = RF3_8.astype(np.float64)
-
-
-RF8_8 = genfromtxt("Extraccion/Sujeto_5/Relajado/F8.csv", delimiter=",")
-RF8_8 = RF8_8.astype(np.float64)
-
-RFC_8 = genfromtxt("Extraccion/Sujeto_5/Relajado/FC5.csv", delimiter=",")
-RFC_8 = RFC_8.astype(np.float64)
-
-RO2_8 = genfromtxt("Extraccion/Sujeto_5/Relajado/O2.csv", delimiter=",")
-RO2_8 = RO2_8.astype(np.float64)
-
-RP8_8 = genfromtxt("Extraccion/Sujeto_5/Relajado/P8.csv", delimiter=",")
-RP8_8 = RP8_8.astype(np.float64)
-
-
-RT8_8 = genfromtxt("Extraccion/Sujeto_5/Relajado/T8.csv", delimiter=",")
-RT8_8 = RT8_8.astype(np.float64)
-
-
-RF7_8 = genfromtxt("Extraccion/Sujeto_5/Relajado/F7.csv", delimiter=",")
-RF7_8 = RF7_8.astype(np.float64)
-###############################################################################
-#
-# SUJETO 8 Estres
-#
-###############################################################################
-
-
-
-EAF3_8 = genfromtxt("Extraccion/Sujeto_5/Estres/AF3.csv", delimiter=",")
-EAF3_8 = EAF3_8.astype(np.float64)
-
-EAF4_8 = genfromtxt("Extraccion/Sujeto_5/Estres/AF4.csv", delimiter=",")
-EAF4_8 = EAF4_8.astype(np.float64)
-
-
-EF3_8 = genfromtxt("Extraccion/Sujeto_5/Estres/F3.csv", delimiter=",")
-EF3_8 = EF3_8.astype(np.float64)
-
-
-EF8_8 = genfromtxt("Extraccion/Sujeto_5/Estres/F8.csv", delimiter=",")
-EF8_8 = EF8_8.astype(np.float64)
-
-EFC_8 = genfromtxt("Extraccion/Sujeto_5/Estres/FC5.csv", delimiter=",")
-EFC_8 = EFC_8.astype(np.float64)
-
-EO2_8 = genfromtxt("Extraccion/Sujeto_5/Estres/O2.csv", delimiter=",")
-EO2_8 = EO2_8.astype(np.float64)
-
-EP8_8 = genfromtxt("Extraccion/Sujeto_5/Estres/P8.csv", delimiter=",")
-EP8_8 = EP8_8.astype(np.float64)
-
-
-ET8_8 = genfromtxt("Extraccion/Sujeto_5/Estres/T8.csv", delimiter=",")
-ET8_8 = ET8_8.astype(np.float64)
-
-
-EF7_8 = genfromtxt("Extraccion/Sujeto_5/Estres/F7.csv", delimiter=",")
-EF7_8 = EF7_8.astype(np.float64)
+]\
 
 ###############################################################################
 #
@@ -847,18 +619,14 @@ SujE_2=numpy.array([E_AF3_2,E_AF4_2,E_F3_2,E_F8_2,E_FC5_2,E_O2_2,E_P8_2,E_T8_2])
 SujE_3=numpy.array([E_AF3_3,E_AF4_3,E_F3_3,E_F8_3,E_FC5_3,E_O2_3,E_P8_3,E_T8_3])
 SujE_4=numpy.array([E_AF3_4,E_AF4_4,E_F3_4,E_F8_4,E_FC5_4,E_O2_4,E_P8_4,E_T8_4])
 SujE_5=numpy.array([E_AF3_5,E_AF4_5,E_F3_5,E_F8_5,E_FC5_5,E_O2_5,E_P8_5,E_T8_5])
-SujE_6=numpy.array([E_AF3_6,E_AF4_6,E_F3_6,E_F8_6,E_FC5_6,E_O2_6,E_P8_6,E_T8_6])
-SujE_7=numpy.array([E_AF3_7,E_AF4_7,E_F3_7,E_F8_7,E_FC5_7,E_O2_7,E_P8_7,E_T8_7])
-SujE_8=numpy.array([E_AF3_8,E_AF4_8,E_F3_8,E_F8_8,E_FC5_8,E_O2_8,E_P8_8,E_T8_8])
+
 
 SujR_1=numpy.array([R_AF3_1,R_AF4_1,R_F3_1,R_F8_1,R_FC5_1,R_O2_1,R_P8_1,R_T8_1])
 SujR_2=numpy.array([R_AF3_2,R_AF4_2,R_F3_2,R_F8_2,R_FC5_2,R_O2_2,R_P8_2,R_T8_2])
 SujR_3=numpy.array([R_AF3_3,R_AF4_3,R_F3_3,R_F8_3,R_FC5_3,R_O2_3,R_P8_3,R_T8_3])
 SujR_4=numpy.array([R_AF3_4,R_AF4_4,R_F3_4,R_F8_4,R_FC5_4,R_O2_4,R_P8_4,R_T8_4])
 SujR_5=numpy.array([R_AF3_5,R_AF4_5,R_F3_5,R_F8_5,R_FC5_5,R_O2_5,R_P8_5,R_T8_5])
-SujR_6=numpy.array([R_AF3_6,R_AF4_6,R_F3_6,R_F8_6,R_FC5_6,R_O2_6,R_P8_6,R_T8_6])
-SujR_7=numpy.array([R_AF3_7,R_AF4_7,R_F3_7,R_F8_7,R_FC5_7,R_O2_7,R_P8_7,R_T8_7])
-SujR_8=numpy.array([R_AF3_8,R_AF4_8,R_F3_8,R_F8_8,R_FC5_8,R_O2_8,R_P8_8,R_T8_8])
+
 ###############################################################################
 
 
@@ -885,10 +653,10 @@ normalized_E8 = normaliza(SujR_8)
 
 
 
-np.savetxt("febrero/DELTA/Relajado.csv",
+#np.savetxt("febrero/DELTA/Relajado.csv",
            np.c_[SujR_1,SujR_2,SujR_3,SujR_4,SujR_5,SujR_6,SujR_7,SujR_8],header="SUJETO_1,SUJETO_2,SUJETO_3,SUJETO_4,SUJETO_5,SUJETO_6,SUJETO_7,SUJETO_8",delimiter=",")
 
-np.savetxt("febrero/DELTA/Estresado.csv",np.c_[SujE_1,SujE_2,SujE_3,SujE_4,SujE_5,SujE_6,SujE_7,SujE_8],header="SUJETO_1,SUJETO_2,SUJETO_3,SUJETO_4,SUJETO_5,SUJETO_6,SUJETO_7,SUJETO_8",delimiter=",")
+#np.savetxt("febrero/DELTA/Estresado.csv",np.c_[SujE_1,SujE_2,SujE_3,SujE_4,SujE_5,SujE_6,SujE_7,SujE_8],header="SUJETO_1,SUJETO_2,SUJETO_3,SUJETO_4,SUJETO_5,SUJETO_6,SUJETO_7,SUJETO_8",delimiter=",")
 
 
 
