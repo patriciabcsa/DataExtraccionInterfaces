@@ -638,23 +638,19 @@ normalized_r2 = normaliza(SujE_2)
 normalized_r3 = normaliza(SujE_3)
 normalized_r4 = normaliza(SujE_4)
 normalized_r5 = normaliza(SujE_5)
-normalized_r6 = normaliza(SujE_6)
-normalized_r7 = normaliza(SujE_7)
-normalized_r8 = normaliza(SujE_8)
+
 
 normalized_E1 = normaliza(SujR_1)
 normalized_E2 = normaliza(SujR_2)
 normalized_E3 = normaliza(SujR_3)
 normalized_E4 = normaliza(SujR_4)
 normalized_E5 = normaliza(SujR_5)
-normalized_E6 = normaliza(SujR_6)
-normalized_E7 = normaliza(SujR_7)
-normalized_E8 = normaliza(SujR_8)
+
 
 
 
 #np.savetxt("febrero/DELTA/Relajado.csv",
-           np.c_[SujR_1,SujR_2,SujR_3,SujR_4,SujR_5,SujR_6,SujR_7,SujR_8],header="SUJETO_1,SUJETO_2,SUJETO_3,SUJETO_4,SUJETO_5,SUJETO_6,SUJETO_7,SUJETO_8",delimiter=",")
+#           np.c_[SujR_1,SujR_2,SujR_3,SujR_4,SujR_5,SujR_6,SujR_7,SujR_8],header="SUJETO_1,SUJETO_2,SUJETO_3,SUJETO_4,SUJETO_5,SUJETO_6,SUJETO_7,SUJETO_8",delimiter=",")
 
 #np.savetxt("febrero/DELTA/Estresado.csv",np.c_[SujE_1,SujE_2,SujE_3,SujE_4,SujE_5,SujE_6,SujE_7,SujE_8],header="SUJETO_1,SUJETO_2,SUJETO_3,SUJETO_4,SUJETO_5,SUJETO_6,SUJETO_7,SUJETO_8",delimiter=",")
 
